@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+.header {
+  height: 100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+  border: 1px solid #ececec;
+  background-color: #ffffff; }
+  .header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; }
+  .header__left {
+    display: flex;
+    align-items: center; }
+  .header__right {
+    display: flex;
+    align-items: center; }
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  align-items: center; }
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #222222;
+  font-size: 27px;
+  font-weight: 300;
+  line-height: 32px;
+  text-transform: uppercase; }
+  .logo_text {
+    font-weight: 300;
+    letter-spacing: 0.68px; }
+  .logo_textD {
+    color: #f16d7f;
+    font-weight: 400;
+    letter-spacing: 0.68px; }
+
+/*# sourceMappingURL=style.css.map */
